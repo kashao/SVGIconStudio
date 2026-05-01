@@ -1,0 +1,57 @@
+{
+  "app": {
+    "title": "SVGIconStudio",
+    "subtitle": "貼上 SVG、即時預覽，並輸出 PNG 或 ICO 圖示。"
+  },
+  "actions": {
+    "open_svg": "開啟 SVG",
+    "sample": "範例",
+    "clear": "清除",
+    "refresh": "更新預覽",
+    "export_png": "輸出 PNG",
+    "export_ico": "輸出 ICO"
+  },
+  "labels": {
+    "png_size": "PNG 尺寸",
+    "language": "語言",
+    "theme": "主題",
+    "svg_content": "SVG 內容",
+    "preview": "預覽"
+  },
+  "languages": {
+    "zh-TW": "繁體中文",
+    "en": "English"
+  },
+  "themes": {
+    "light": "淺色",
+    "dark": "深色"
+  },
+  "dialogs": {
+    "open_svg": "開啟 SVG 檔案",
+    "export_png": "輸出 PNG",
+    "export_ico": "輸出 ICO",
+    "svg_filter": "SVG 檔案 (*.svg);;所有檔案 (*.*)",
+    "png_filter": "PNG 圖片 (*.png);;所有檔案 (*.*)",
+    "ico_filter": "ICO 圖示 (*.ico);;所有檔案 (*.*)",
+    "done": "完成",
+    "error": "錯誤"
+  },
+  "defaults": {
+    "png_filename": "icon.png",
+    "ico_filename": "icon.ico"
+  },
+  "status": {
+    "ready": "就緒。請貼上 SVG 內容或開啟檔案。",
+    "preview_updated": "預覽已更新。",
+    "opened": "已開啟：{path}",
+    "saved": "已儲存：{path}",
+    "empty_svg": "SVG 內容是空的。請貼上 SVG 內容或開啟檔案。"
+  },
+  "errors": {
+    "render_failed": "SVG 預覽失敗：{error}",
+    "export_failed": "輸出失敗：{error}",
+    "file_open_failed": "無法讀取檔案：{error}",
+    "locale_load_failed": "無法載入語系：{error}",
+    "style_load_failed": "無法載入樣式：{error}"
+  }
+}

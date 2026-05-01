@@ -1,0 +1,57 @@
+{
+  "app": {
+    "title": "SVGIconStudio",
+    "subtitle": "Paste SVG, preview instantly, and export PNG or ICO icons."
+  },
+  "actions": {
+    "open_svg": "Open SVG",
+    "sample": "Sample",
+    "clear": "Clear",
+    "refresh": "Refresh Preview",
+    "export_png": "Export PNG",
+    "export_ico": "Export ICO"
+  },
+  "labels": {
+    "png_size": "PNG Size",
+    "language": "Language",
+    "theme": "Theme",
+    "svg_content": "SVG Content",
+    "preview": "Preview"
+  },
+  "languages": {
+    "zh-TW": "繁體中文",
+    "en": "English"
+  },
+  "themes": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "dialogs": {
+    "open_svg": "Open SVG File",
+    "export_png": "Export PNG",
+    "export_ico": "Export ICO",
+    "svg_filter": "SVG files (*.svg);;All files (*.*)",
+    "png_filter": "PNG image (*.png);;All files (*.*)",
+    "ico_filter": "ICO icon (*.ico);;All files (*.*)",
+    "done": "Done",
+    "error": "Error"
+  },
+  "defaults": {
+    "png_filename": "icon.png",
+    "ico_filename": "icon.ico"
+  },
+  "status": {
+    "ready": "Ready. Paste SVG content or open a file.",
+    "preview_updated": "Preview updated.",
+    "opened": "Opened: {path}",
+    "saved": "Saved: {path}",
+    "empty_svg": "SVG content is empty. Paste SVG content or open a file."
+  },
+  "errors": {
+    "render_failed": "SVG rendering failed: {error}",
+    "export_failed": "Export failed: {error}",
+    "file_open_failed": "Could not read file: {error}",
+    "locale_load_failed": "Could not load locale: {error}",
+    "style_load_failed": "Could not load style: {error}"
+  }
+}

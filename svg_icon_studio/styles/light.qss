@@ -1,0 +1,117 @@
+QMainWindow {
+  background: #f7f7f5;
+}
+
+QToolBar {
+  spacing: 8px;
+  padding: 10px 14px;
+  background: #ffffff;
+  border-bottom: 1px solid #d7d7d2;
+}
+
+QLabel {
+  color: #1f2328;
+}
+
+QPushButton {
+  color: #1f2328;
+  background: #f0f2ef;
+  border: 1px solid #c8ccc6;
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+
+QPushButton:hover {
+  background: #e7f4f0;
+  border-color: #0f766e;
+}
+
+QPushButton:pressed {
+  background: #ccfbf1;
+}
+
+QComboBox {
+  color: #1f2328;
+  background: #ffffff;
+  border: 1px solid #c8ccc6;
+  border-radius: 6px;
+  padding: 7px 10px;
+  min-width: 96px;
+}
+
+QComboBox QAbstractItemView {
+  color: #1f2328;
+  background: #ffffff;
+  selection-background-color: #ccfbf1;
+}
+
+QFrame#Header,
+QFrame#Card {
+  background: #ffffff;
+  border: 1px solid #d7d7d2;
+  border-radius: 8px;
+}
+
+QLabel#TitleLabel {
+  color: #15171a;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+QLabel#SubtitleLabel {
+  color: #5f665f;
+  font-size: 14px;
+}
+
+QLabel#SectionLabel {
+  color: #15171a;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+QPlainTextEdit#SvgEditor {
+  color: #1f2328;
+  background: #ffffff;
+  border: 1px solid #c8ccc6;
+  border-radius: 8px;
+  padding: 14px;
+  selection-background-color: #ccfbf1;
+}
+
+PreviewWidget#PreviewWidget {
+  border: 1px solid #c8ccc6;
+  border-radius: 8px;
+}
+
+QStatusBar {
+  color: #5f665f;
+  background: #ffffff;
+  border-top: 1px solid #d7d7d2;
+}
+
+QDialog,
+QMessageBox {
+  color: #1f2328;
+  background: #ffffff;
+}
+
+QMessageBox QLabel,
+QMessageBox QLabel#qt_msgbox_label,
+QMessageBox QLabel#qt_msgboxex_icon_label {
+  color: #1f2328;
+  background: transparent;
+}
+
+QMessageBox QPushButton {
+  color: #1f2328;
+  background: #f0f2ef;
+  border: 1px solid #c8ccc6;
+  border-radius: 6px;
+  padding: 8px 18px;
+  min-width: 72px;
+}
+
+QMessageBox QPushButton:hover {
+  background: #e7f4f0;
+  border-color: #0f766e;
+}

@@ -1,0 +1,5 @@
+[project]
+name = "SVGIconStudio"
+version = "0.1.0"
+description = "SVGIconStudio is a PySide6 desktop app for converting SVG icons to PNG and ICO."
+requires-python = ">=3.10"

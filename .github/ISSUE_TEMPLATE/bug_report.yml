@@ -1,0 +1,45 @@
+name: Bug report
+description: Report a problem in SVGIconStudio
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe the problem clearly.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact steps that trigger the issue.
+      placeholder: |
+        1. Open SVGIconStudio
+        2. Paste this SVG
+        3. Click Export PNG
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: v0.1.0
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11 / macOS 14
