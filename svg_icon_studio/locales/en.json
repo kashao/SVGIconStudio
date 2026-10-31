@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "SVGIconStudio",
+    "subtitle": "Paste SVG, preview instantly, and export PNG or ICO icons.",
+    "privacy": "Offline · No SVG or activity history saved · Only your chosen exports are written"
+  },
+  "actions": {
+    "open_svg": "Open SVG",
+    "sample": "Sample",
+    "clear": "Clear",
+    "refresh": "Refresh Preview",
+    "export_png": "Export PNG",
+    "export_ico": "Export ICO"
+  },
+  "labels": {
+    "png_size": "PNG Size",
+    "language": "Language",
+    "theme": "Theme",
+    "svg_content": "SVG Content",
+    "preview": "Preview",
+    "placeholder": "Paste SVG markup here, or press Ctrl+O to open a file…"
+  },
+  "languages": {
+    "zh-TW": "繁體中文",
+    "en": "English"
+  },
+  "themes": {
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "dialogs": {
+    "open_svg": "Open SVG File",
+    "export_png": "Export PNG",
+    "export_ico": "Export ICO",
+    "svg_filter": "SVG files (*.svg);;All files (*.*)",
+    "png_filter": "PNG image (*.png);;All files (*.*)",
+    "ico_filter": "ICO icon (*.ico);;All files (*.*)",
+    "done": "Done",
+    "error": "Error"
+  },
+  "defaults": {
+    "png_filename": "icon.png",
+    "ico_filename": "icon.ico"
+  },
+  "status": {
+    "ready": "Ready. Paste SVG content or open a file.",
+    "preview_updated": "Preview updated.",
+    "opened": "SVG opened.",
+    "saved": "Icon exported.",
+    "empty_svg": "SVG content is empty. Paste SVG content or open a file.",
+    "rendering": "Rendering preview…"
+  },
+  "errors": {
+    "render_failed": "Unable to render preview.",
+    "export_failed": "Export failed. Check SVG and destination permissions.",
+    "file_open_failed": "Unable to open. Choose a UTF-8 SVG file (maximum 256 KiB).",
+    "locale_load_failed": "Unable to load language.",
+    "style_load_failed": "Unable to load theme.",
+    "safe_render": "Unable to preview. Check SVG (256 KiB maximum). External resources, embedded images, text, filters, style blocks and scripts are unsupported."
+  }
+}

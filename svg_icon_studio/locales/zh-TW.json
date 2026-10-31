@@ -1,0 +1,61 @@
+{
+  "app": {
+    "title": "SVGIconStudio",
+    "subtitle": "貼上 SVG、即時預覽，並輸出 PNG 或 ICO 圖示。",
+    "privacy": "離線處理 · 不儲存 SVG 或使用紀錄 · 僅寫入你選擇輸出的圖檔"
+  },
+  "actions": {
+    "open_svg": "開啟 SVG",
+    "sample": "範例",
+    "clear": "清除",
+    "refresh": "更新預覽",
+    "export_png": "輸出 PNG",
+    "export_ico": "輸出 ICO"
+  },
+  "labels": {
+    "png_size": "PNG 尺寸",
+    "language": "語言",
+    "theme": "主題",
+    "svg_content": "SVG 內容",
+    "preview": "預覽",
+    "placeholder": "在此貼上 SVG 原始碼，或按 Ctrl+O 開啟檔案…"
+  },
+  "languages": {
+    "zh-TW": "繁體中文",
+    "en": "English"
+  },
+  "themes": {
+    "light": "淺色",
+    "dark": "深色"
+  },
+  "dialogs": {
+    "open_svg": "開啟 SVG 檔案",
+    "export_png": "輸出 PNG",
+    "export_ico": "輸出 ICO",
+    "svg_filter": "SVG 檔案 (*.svg);;所有檔案 (*.*)",
+    "png_filter": "PNG 圖片 (*.png);;所有檔案 (*.*)",
+    "ico_filter": "ICO 圖示 (*.ico);;所有檔案 (*.*)",
+    "done": "完成",
+    "error": "錯誤"
+  },
+  "defaults": {
+    "png_filename": "icon.png",
+    "ico_filename": "icon.ico"
+  },
+  "status": {
+    "ready": "就緒。請貼上 SVG 內容或開啟檔案。",
+    "preview_updated": "預覽已更新。",
+    "opened": "已開啟 SVG。",
+    "saved": "圖示已輸出。",
+    "empty_svg": "SVG 內容是空的。請貼上 SVG 內容或開啟檔案。",
+    "rendering": "正在產生預覽…"
+  },
+  "errors": {
+    "render_failed": "無法產生預覽。",
+    "export_failed": "無法輸出。請檢查 SVG 與輸出位置的寫入權限。",
+    "file_open_failed": "無法開啟。請選擇 UTF-8 SVG 檔案（上限 256 KiB）。",
+    "locale_load_failed": "無法載入語系。",
+    "style_load_failed": "無法載入主題。",
+    "safe_render": "無法預覽。請檢查 SVG（上限 256 KiB）；不支援外部資源、內嵌圖片、文字、濾鏡、樣式區塊或腳本。"
+  }
+}

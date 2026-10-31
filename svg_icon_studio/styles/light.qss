@@ -1,0 +1,23 @@
+QMainWindow { background: #eef3f7; }
+QWidget { font-size: 13px; }
+QLabel { color: #182c3c; }
+QToolBar { spacing: 8px; padding: 12px 16px; background: #ffffff; border-bottom: 1px solid #cad7e1; }
+QPushButton, QComboBox { color: #182c3c; background: #ffffff; border: 1px solid #cad7e1; border-radius: 7px; padding: 9px 12px; }
+QPushButton:hover, QComboBox:hover { background: #e4f5f2; border-color: #087f76; }
+QPushButton:focus, QComboBox:focus, QPlainTextEdit:focus { border: 2px solid #087f76; }
+QPushButton:pressed { background: #e4f5f2; }
+QPushButton:disabled { color: #526878; border-color: #cad7e1; background: #eef3f7; }
+QPushButton#PrimaryButton { background: #087f76; color: #ffffff; font-weight: 600; }
+QPushButton#PrimaryButton:disabled { background: #eef3f7; color: #526878; }
+QComboBox QAbstractItemView { background: #ffffff; color: #182c3c; selection-background-color: #e4f5f2; selection-color: #182c3c; }
+QFrame#Header { background: transparent; border: none; }
+QFrame#Card { background: #ffffff; border: 1px solid #cad7e1; border-radius: 12px; }
+QLabel#TitleLabel { font-size: 25px; font-weight: 700; }
+QLabel#SubtitleLabel, QLabel#PrivacyLabel { color: #526878; }
+QLabel#SectionLabel { font-size: 15px; font-weight: 600; }
+QLabel#Feedback { color: #a12b20; background: #fff0ed; padding: 12px; border-radius: 7px; }
+QPlainTextEdit#SvgEditor { color: #182c3c; background: #f7fafc; border: 1px solid #cad7e1; border-radius: 8px; padding: 12px; selection-background-color: #e4f5f2; }
+QStatusBar { color: #526878; background: #ffffff; border-top: 1px solid #cad7e1; }
+QSplitter::handle { background: #eef3f7; width: 8px; }
+QDialog, QMessageBox { color: #182c3c; background: #ffffff; }
+QMessageBox QLabel { color: #182c3c; background: transparent; }
